@@ -1,0 +1,15 @@
+[features]
+seeds = false
+[programs.localnet]
+sol_spl_escrow = "HFXevJNQjGqLhapmUhj8oEetrsc5iGBGBQJsm7aUGTAZ"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "http://127.0.0.1:8899"
+# cluster = "localnet"
+wallet = "/Users/ashwinprasad/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000000 tests/**/*.spec.ts"

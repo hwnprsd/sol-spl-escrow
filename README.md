@@ -5,13 +5,13 @@ This is a program written to ensure safe transfer of SPL Tokens between two part
 ### Program Flow
 
 1. Init the escrow submitting the following:
-   a. Participant Keys,
-   b. Number of Tokens Requested
-   c. Associated Token Acccounts of Participant 1
-   d. Associated Token Acccount of Participant 2
-   e. Bump for the PDA created using a the Public Key of a random Keypair
-2. Fullfill the obligation of each participant, with the right amount. And the escrow automaatically transfers the right tokens to the right particiapant
-3. Cancel the escrow if a participant requests and refund the tokens
+   1. Public Keys of both parties
+   2. Number of Tokens Requested
+   3. Associated Token Acccounts of Party A
+   4. Associated Token Acccount of Party B
+   5. Bump for the PDA created using a the Public Key of a random Keypair
+2. Fullfill the obligation of each party, with the right amount. And the escrow automaatically transfers the right tokens to the right party
+3. Cancel the escrow if a party requests and refund the tokens
 
 The intention of this program was to use spl-token transfers between PDA's Token Accounts and Associated Token Accounts
 

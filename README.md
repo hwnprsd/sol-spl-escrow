@@ -1,6 +1,7 @@
 # Solana SPL Escrow Program
 
 This is a program written to ensure safe transfer of SPL Tokens between two parties (Party A & Party B)
+This is written as a part of the Flaq Program to facilitate user's rewards being sent to them via Flaq transparently
 
 ### Program Flow
 
